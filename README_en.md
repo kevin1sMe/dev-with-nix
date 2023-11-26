@@ -1,8 +1,6 @@
 
 ## 🚀 Quick Deployment of Your Personal Development Environment - Only Takes 5 Minutes!
 
-> 🌟 Get the latest version here: [Visit GitHub](https://github.com/kevin1sMe/dev-env-nix).
-
 ## Prerequisites
 - Ensure your system has curl and git installed.
 - This script will automatically install Nix if it's not already installed.
