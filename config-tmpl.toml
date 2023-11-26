@@ -1,0 +1,14 @@
+# 用户信息配置
+# 你在本机登录的用户名，及Home目录路径
+[user]
+name = ""
+homeDir = ""
+
+# git提交信息配置
+[gitconfig]
+name = ""
+email = ""
+
+# 在这里添加一些希望设定的环境变量
+[env]
+WELCOME_TO_USE_NIX = "greet from kevin"

@@ -1,0 +1,81 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1697838989,
+        "narHash": "sha256-hwVlO+st8vWJO6iy3/JbMHrUyY4Ak7xUSmffoWqBPUg=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "ae631b0b20f06f7d239d160723d228891ddb2fe0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1697723726,
+        "narHash": "sha256-SaTWPkI8a5xSHX/rrKzUe+/uVNy6zCGMXgoeMb7T9rg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7c9cc5a6e5d38010801741ac830a3f8fd667a7a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-for-kubectl": {
+      "locked": {
+        "lastModified": 1645218075,
+        "narHash": "sha256-s04EF9cTUmcpgFNAnYiBZrd0dwzHyeKcqx7d156WtOo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e7e54ace729a1e88177c0121d05f35352b05aed8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e7e54ace729a1e88177c0121d05f35352b05aed8",
+        "type": "github"
+      }
+    },
+    "nvimdots": {
+      "locked": {
+        "lastModified": 1697880683,
+        "narHash": "sha256-vPFgLuh3bn6P0XX2DG/GRgnbstByl8vPtyOSAMK1MtE=",
+        "owner": "ayamir",
+        "repo": "nvimdots",
+        "rev": "874b413a4450ab9557380659456587afde2d0418",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ayamir",
+        "repo": "nvimdots",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-for-kubectl": "nixpkgs-for-kubectl",
+        "nvimdots": "nvimdots"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
