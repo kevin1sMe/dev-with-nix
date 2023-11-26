@@ -20,7 +20,7 @@ echo "experimental-features = nix-command flakes" | sudo tee -a /etc/nix/nix.con
 git clone git@github.com:kevin1sMe/dev-with-nix.git
 
 # 进入仓库
-cd dev-env-nix
+cd dev-with-nix
 
 # 配置userconfig.toml
 cp config-tmpl.toml ${HOME}/.dev-with-nix.toml
@@ -35,6 +35,6 @@ echo -e "1. \xF0\x9F\x94\xA7 \e[32mSource the Nix profile with:\e[0m \e[33msourc
 
 echo -e "2. \xF0\x9F\x93\x82 \e[32mEdit config at \e[0m\e[33m${HOME}/.dev-with-nix.toml\e[0m"
 
-echo -e "3. \xF0\x9F\x9A\x80 \e[32mCd\e[0m \e[33mdev-env-nix\e[0m \e[32mand build with command:\e[0m \e[33mnix run nixpkgs#home-manager -- switch --flake .#dev --impure\e[0m\e[32m (Grab a coffee for the initial run!)\e[0m"
+echo -e "3. \xF0\x9F\x9A\x80 \e[32mCd\e[0m \e[33mdev-with-nix\e[0m \e[32mand build with command:\e[0m \e[33mnix run nixpkgs#home-manager -- switch --flake .#dev --impure\e[0m\e[32m (Grab a coffee for the initial run!)\e[0m"
 
 echo -e "4. \xF0\x9F\x8E\xAE \e[32mStart your session with:\e[0m \e[33mzsh\e[0m"
